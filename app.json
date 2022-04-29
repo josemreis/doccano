@@ -28,7 +28,7 @@
         "DJANGO_SETTINGS_MODULE": {
             "description": "Django Settings Module. You don't have to change this.",
             "required": true,
-            "value": "config.settings.heroku"
+            "value": "config.settings.production"
         }
     },
     "stack": "container",
@@ -37,7 +37,7 @@
     },
     "addons": [
         {
-            "plan": "heroku-postgresql:hobby-dev"
+            "plan": "heroku-postgresql:hobby-basic"
         }
     ]
 }
